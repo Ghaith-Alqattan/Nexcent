@@ -163,9 +163,6 @@
     .customers-container {
         flex-direction: column;
         align-items: center;
-        .banners-text {
-            flex-direction: column;
-        }
     }
 }
 

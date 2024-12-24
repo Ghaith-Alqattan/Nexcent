@@ -1,0 +1,17 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    transition: .5s ease;
+    border: none;
+    list-style-type: none;
+    text-decoration: none;
+}
+
+:root {
+    --mainTXT: #4D4D4D;
+    --paraTXT: #717171;
+    --para2TXT: #89939E;
+    --buttColor: #4CAF4F;
+    --backColor: #F5F7FA;
+}

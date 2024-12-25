@@ -1,17 +1,23 @@
 * {
-    padding: 0;
-    margin: 0;
-    box-sizing: border-box;
-    transition: .5s ease;
-    border: none;
-    list-style-type: none;
-    text-decoration: none;
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  transition: 0.5s ease;
+  border: none;
+  list-style-type: none;
+  text-decoration: none;
+  font-family: 'IBM Plex Sans', serif;
+}
+
+.container {
+  width: 90vw !important;
+  margin: 0 auto !important;
 }
 
 :root {
-    --mainTXT: #4D4D4D;
-    --paraTXT: #717171;
-    --para2TXT: #89939E;
-    --buttColor: #4CAF4F;
-    --backColor: #F5F7FA;
+  --mainTXT: #4d4d4d;
+  --paraTXT: #717171;
+  --para2TXT: #89939e;
+  --buttColor: #4caf4f;
+  --backColor: #f5f7fa;
 }

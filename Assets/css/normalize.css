@@ -6,7 +6,7 @@
   border: none;
   list-style-type: none;
   text-decoration: none;
-  font-family: 'IBM Plex Sans', serif;
+  font-family: 'IBM Plex Sans', serif !important;
 }
 
 .container {
@@ -14,10 +14,15 @@
   margin: 0 auto !important;
 }
 
+button {
+  cursor: pointer;
+}
+
 :root {
-  --mainTXT: #4d4d4d;
-  --paraTXT: #717171;
-  --para2TXT: #89939e;
-  --buttColor: #4caf4f;
-  --backColor: #f5f7fa;
+  --text-main-color: #4d4d4d;
+  --text-second-color: #717171;
+  --text-third-color: #89939e;
+  --button-color: #4caf4f;
+  --silver-background: #f5f7fa;
+  --text-dark-color: #18191f;
 }

@@ -18,13 +18,13 @@
 
         h1 {
           max-width: 601px;
-          color: var(--mainTXT);
+          color: var(-- text-main-color);
           font-size: 36px;
         }
         p {
           max-width: 601px;
 
-          color: var(--paraTXT);
+          color: var(--text-second-color);
           line-height: 20px;
         }
       }
@@ -35,7 +35,7 @@
         width: 151px;
         height: 52px;
         border-radius: 4px;
-        background-color: var(--buttColor);
+        background-color: var(--button-color);
       }
     }
   }
@@ -50,7 +50,7 @@
 }
 
 .customers {
-  background-color: var(--backColor);
+  background-color: var(--silver-background);
   margin-top: 6rem;
   .customers-container {
     display: flex;
@@ -71,7 +71,7 @@
 
         p {
           max-width: 748px;
-          color: var(--paraTXT);
+          color: var(--text-second-color);
           line-height: 24px;
           font-size: 16px;
         }
@@ -81,13 +81,13 @@
           gap: 8px;
 
           h3 {
-            color: var(--buttColor);
+            color: var(--button-color);
             font-size: 20px;
             line-height: 28px;
             font-weight: 600px;
           }
           p {
-            color: var(--para2TXT);
+            color: var(--text-third-color);
             font-size: 16px;
             line-height: 24px;
           }
@@ -107,7 +107,7 @@
             gap: 4px;
             h3 {
               max-width: 188px;
-              color: var(--buttColor);
+              color: var(--button-color);
               font-size: 20px;
               font-weight: 600;
               line-height: 28px;
@@ -147,14 +147,14 @@
     gap: 8px;
     h1 {
       text-align: center;
-      color: var(--mainTXT);
+      color: var(-- text-main-color);
       line-height: 44px;
       font-weight: 600;
       font-size: 36px;
     }
     p {
       max-width: 628px;
-      color: var(--paraTXT);
+      color: var(--text-second-color);
       font-weight: 400;
       font-size: 16px;
       line-height: 24px;
@@ -176,7 +176,7 @@
       }
       .each-text {
         position: absolute;
-        background-color: var(--backColor);
+        background-color: var(--silver-background);
         border-radius: 8px;
         padding: 16px;
         display: flex;
@@ -192,7 +192,7 @@
           width: 285px;
           height: 84px;
           text-align: center;
-          color: var(--paraTXT);
+          color: var(--text-second-color);
           font-weight: 600;
           line-height: 28px;
           font-size: 20px;
@@ -205,7 +205,7 @@
           h3 {
             width: 99px;
             height: 28px;
-            color: var(--buttColor);
+            color: var(--button-color);
             cursor: pointer;
             font-weight: 600;
             line-height: 28px;

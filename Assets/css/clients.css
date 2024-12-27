@@ -1,24 +1,30 @@
-.our-clients .container .clients-heading{
-    text-align: center;
+.our-clients .container .clients-heading {
+  text-align: center;
 }
 
-.our-clients .container .clients-heading h1{
-    color: #4D4D4D;
-    font-family: "";
-    font-weight: 600;
-    font-size: 36px;
+.our-clients .container .clients-heading h1 {
+  color: #4d4d4d;
+  font-weight: 600;
+  font-size: 36px;
 }
 
-
-.our-clients .container .clients-heading p{
-    color: #717171;
-    font-family: "";
-    font-weight: 400;
-    font-size: 16px;
+.our-clients .container .clients-heading p {
+  color: #717171;
+  font-weight: 400;
+  font-size: 16px;
 }
 
-.our-clients .container .image-clients{
-    display: flex;
-    justify-content: space-between;
-    margin-top: 45px;
+.our-clients .container .image-clients {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 45px;
+}
+
+@media (max-width: 400px) {
+  .our-clients .container .image-clients {
+    overflow-x: scroll;
+    img {
+      width: 25%;
+    }
+  }
 }

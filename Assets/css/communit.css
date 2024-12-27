@@ -1,0 +1,64 @@
+.communit .container {
+    margin-top: 75px;
+}
+
+.communit .container .communit-hadeing {
+    text-align: center;
+
+}
+
+.communit .container .communit-hadeing h1 {
+    color: #4D4D4D;
+    font-size: 28px;
+    font-weight: 600;
+}
+
+.communit .container .communit-hadeing p {
+    color: #717171;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 25px;
+}
+
+.communit .container .communit-cards {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+
+.communit .container .communit-cards .communit-card {
+    width: 300px;
+    height: 260px;
+    text-align: center;
+    padding: 24px;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: 0.4s ease-in-out;
+}
+
+.communit .container .communit-cards .communit-card:hover {
+    background-color: #96BB7C;
+}
+.communit .container .communit-cards .communit-card h2 {
+    color: #4D4D4D;
+    font-size: 28px;
+    font-weight: 700;
+
+}
+
+.communit .container .communit-cards .communit-card h5 {
+    color: #717171;
+    font-size: 14px;
+    font-weight: 400;
+
+}
+@media screen and (max-width:992px) {
+
+    .communit .container .communit-cards {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+}

@@ -1,0 +1,72 @@
+
+.Achievements{
+    background-color: #F5F7FA;
+}
+.Achievements .container{
+   
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 65px;
+}
+
+.Achievements .container .Achievements-heading h1{
+    font-size: 36px;
+    font-weight: 600;
+    color: #4D4D4D;
+}
+
+.Achievements .container .Achievements-heading span{
+    color: #4CAF4F;
+}
+
+.Achievements .container .Achievements-heading p{
+    color: #717171;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+
+
+.Achievements .container .Achievements-cards .Achievements-card{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.Achievements .container .Achievements-cards  .card-1{
+    display: flex;
+    gap: 45px;
+    margin-top: 15px;
+}
+
+.Achievements .container .Achievements-cards  .card-2{
+    display: flex;
+    gap: 45px;
+    margin-top: 15px;
+}
+
+
+.Achievements .container .Achievements-cards .Achievements-card h1{
+    font-size: 36px;
+    font-weight: 600;
+    color: #4D4D4D;
+}
+
+.Achievements .container .Achievements-cards .Achievements-card p{
+    color: #717171;
+    font-size: 16px;
+    font-weight: 400;
+}
+
+@media screen and (max-width:992px) {
+    .Achievements .container{
+        flex-direction: column;
+        align-items: center;
+        margin-top: 180px;
+    }
+    
+.Achievements .container .Achievements-cards .Achievements-card{
+    flex-direction: column;
+}
+}

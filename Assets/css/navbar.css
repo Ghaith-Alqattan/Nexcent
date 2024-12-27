@@ -1,0 +1,78 @@
+/* navbar */
+nav {
+    background-color: var(--silver-background);
+    padding: 30px 0;
+}
+
+/* navbar's container */
+nav .container {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* nav links */
+nav .container .nav-links {
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+/* links */
+nav .container .nav-links li a {
+    color: var(--text-dark-color);
+    transition: all ease-in-out 0.5s;
+}
+
+/* hover on link */
+nav .container .nav-links li a:hover {
+    color: var(--button-color);
+}
+
+/* nav buttons */
+nav .container .nav-buttons {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+/* first nav button */
+nav .container .nav-buttons button:nth-child(1) {
+    color: var(--button-color);
+    background-color: transparent;
+}
+
+/* secoond nav button */
+nav .container .nav-buttons button:nth-child(2) {
+    color: #ffffff;
+    background-color: var(--button-color);
+    padding: 10px 20px;
+    border-radius: 6px;
+    transition: all ease-in-out 0.5s;
+}
+
+/* hover on secoond nav button */
+nav .container .nav-buttons button:nth-child(2):hover {
+    color: #ffffff;
+    background-color: var(--text-dark-color);
+}
+
+/* nav bars */
+nav .container .nav-bars {
+    display: none;
+}
+
+@media screen and (max-width: 992px) {
+    /* nav links */
+    nav .container .nav-links {
+        display: none;
+    }
+    /* nav buttons */
+    nav .container .nav-buttons {
+        display: none;
+    }
+    nav .container .nav-bars {
+        display: block;
+    }
+}

@@ -1,0 +1,87 @@
+.customers {
+    background-color: var(--silver-background);
+    margin-top: 6rem;
+    .container {
+        display: flex;
+        align-items: center;
+        gap: 1rem;
+        .customers-content {
+            display: flex;
+            flex-direction: column;
+            gap: 32px;
+            .customers-text {
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                gap: 16px;
+
+                p {
+                    max-width: 748px;
+                    color: var(--text-second-color);
+                    line-height: 24px;
+                    font-size: 16px;
+                }
+                .Name {
+                    display: flex;
+                    flex-direction: column;
+                    gap: 8px;
+
+                    h3 {
+                        color: var(--button-color);
+                        font-size: 20px;
+                        line-height: 28px;
+                        font-weight: 600px;
+                    }
+                    p {
+                        color: var(--text-third-color);
+                        font-size: 16px;
+                        line-height: 24px;
+                    }
+                }
+                .banners-text {
+                    display: flex;
+                    gap: 32px;
+                    .banners {
+                        height: 48px;
+                        display: flex;
+                        align-items: center;
+                        gap: 1rem;
+                    }
+                    .Meet {
+                        display: flex;
+                        align-items: center;
+                        gap: 4px;
+                        h3 {
+                            max-width: 188px;
+                            color: var(--button-color);
+                            font-size: 20px;
+                            font-weight: 600;
+                            line-height: 28px;
+                        }
+                    }
+                    div.Meet:hover {
+                        cursor: pointer;
+                        img {
+                            transform: translateX(15px);
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
+@media (max-width: 992px) {
+    section.customers {
+        .container {
+            flex-direction: column;
+            align-items: center;
+            .customers-content {
+                .banners-text {
+                    flex-direction: column;
+                    align-items: flex-start;
+                }
+            }
+        }
+    }
+}

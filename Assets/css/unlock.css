@@ -1,0 +1,57 @@
+.unlock .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+
+.unlock .container .content-unlock{
+    width: 46vw;
+    height: 46vh;
+}
+
+.unlock .container .content-unlock h1{
+    color: #4D4D4D;
+    font-size: 36px;
+    font-weight: 600;
+}
+
+.unlock .container .content-unlock p{
+    color: #717171;
+    font-size: 16px;
+    font-weight: 400;
+    margin-top: 15px;
+}
+
+.unlock .container .content-unlock button{
+    background-color: #4CAF4F;
+    width: 150px;
+    height: 50px;
+    border-radius: 8px;
+    border-color: transparent;
+    color: #ffffff;
+    font-size: 16px;
+    cursor: pointer;
+    transition: 0.4s ease-in-out;
+    box-shadow: 5px 10px;
+    margin-top: 15px;
+
+}
+
+.unlock .container .content-unlock button:hover{
+    background-color: #ffffff;
+    color: #4CAF4F;
+    border-color: #4CAF4F;
+}
+
+@media screen and (max-width:992px) {
+    .unlock .container{
+        flex-direction: column;
+    }
+    
+    .unlock .container .content-unlock{
+        width: 70vw;
+        height: 46vh;
+    }
+
+}

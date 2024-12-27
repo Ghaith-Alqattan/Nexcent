@@ -1,0 +1,28 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    transition: 0.5s ease;
+    border: none;
+    list-style-type: none;
+    text-decoration: none;
+    font-family: 'IBM Plex Sans', serif !important;
+}
+
+.container {
+    width: 90vw !important;
+    margin: 0 auto !important;
+}
+
+button {
+    cursor: pointer;
+}
+
+:root {
+    --text-main-color: #4d4d4d;
+    --text-second-color: #717171;
+    --text-third-color: #89939e;
+    --button-color: #4caf4f;
+    --silver-background: #f5f7fa;
+    --text-dark-color: #18191f;
+}

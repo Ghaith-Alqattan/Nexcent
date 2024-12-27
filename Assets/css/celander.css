@@ -1,0 +1,58 @@
+.celander {
+    .container {
+        display: flex;
+        align-items: center;
+        gap: 3rem;
+
+        .celander-content {
+            display: flex;
+            flex-direction: column;
+            gap: 32px;
+
+            .celander-text {
+                width: 100%;
+                display: flex;
+                flex-direction: column;
+                gap: 16px;
+
+                h1 {
+                    max-width: 601px;
+                    color: var(--text-main-color);
+                    font-size: 36px;
+                }
+                p {
+                    max-width: 601px;
+
+                    color: var(--text-second-color);
+                    line-height: 20px;
+                }
+            }
+            button {
+                color: white;
+                text-align: center;
+                width: 151px;
+                height: 52px;
+                border-radius: 4px;
+                background-color: var(--button-color);
+            }
+            button:hover {
+                color: #ffffff;
+                background-color: var(--text-dark-color);
+            }
+        }
+    }
+}
+
+
+@media (max-width: 992px) {
+    section.celander {
+        .container {
+            flex-direction: column;
+            align-items: center;
+            gap: 3rem;
+            img {
+                width: 75%;
+            }
+        }
+    }
+}
